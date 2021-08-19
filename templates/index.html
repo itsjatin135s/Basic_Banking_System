@@ -1,0 +1,10 @@
+{%extends 'layout.html'%}
+{%block content%}
+	<div class="container-fluid bg-dark " style="height: 90vh;">
+		<!-- <img src="https://source.unsplash.com/1600x900/?Bank">		 -->
+		<div class="text-center">
+			<img src="{{url_for('static',path='/images/bank.jpg')}}" class="rounded" style="filter: blur(2px);" alt="Unable To loAd Image">
+			<span class="heading">Welcome to bank Of Montreal</span>
+		</div>
+	</div>
+{%endblock%}

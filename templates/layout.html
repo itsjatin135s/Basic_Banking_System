@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Bank Of Montreal</title>
+	<link rel="stylesheet" href="{{url_for('static',path='/css/style.css')}}">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+</head>
+<body class="bg-dark">
+	<!-- Nav Bar -->
+	<div class="container-fluid bg-dark lh-lg" style="height: 5vh;">
+		<ul class="nav justify-content-center">
+			<li class="nav-item">
+				<a class="nav-link text-light" aria-current="page" href="/">Home</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link text-light" href="/allcus">View All Customers</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link text-light" href="/trans-his">Transaction</a>
+			</li>
+		</ul>
+	</div>
+	<!-- end nav -->
+{%block content%} {%endblock%}
+<footer class="footer mt-auto py-3 bg-dark" style="height: 5vh;">
+  <div class="container-fluid">
+    <span class="text-muted" style="margin-left: 43%;">Created By @Jatin Saini <a href="https://www.linkedin.com/in/itsjatin135/"> @Linkdin</a></span>
+  </div>
+</footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+</html>
